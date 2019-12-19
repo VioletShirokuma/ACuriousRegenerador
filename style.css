@@ -1,0 +1,41 @@
+body {
+    background-color: #ff9999;
+    font-family: "serif, times, arial"
+    margin:0;
+    padding:0;
+  } 
+  
+  h1 {
+    color: #b41e1e;
+    text-align: center;
+    line-height: 2;
+  }
+
+  h2 {
+    text-align: center;
+    color: #a81a7e;
+  }
+
+   .container {
+    background-color: rgb(253, 180, 174);
+    border-radius: 5px;
+    margin: 4em auto;
+    max-width: 60%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  } 
+  
+  #password {
+  
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #d81466; 
+    margin: 4rem auto;
+  }
+  
+  .box {
+    position: relative; 
+  }  
