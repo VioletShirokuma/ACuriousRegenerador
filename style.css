@@ -4,6 +4,10 @@ body {
     margin:0;
     padding:0;
   } 
+
+  .box {
+    position: relative; 
+  } 
   
   h1 {
     color: #b41e1e;
@@ -20,7 +24,7 @@ body {
     background-color: rgb(253, 180, 174);
     border-radius: 5px;
     margin: 4em auto;
-    max-width: 60%;
+    max-width: 50%;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -33,9 +37,5 @@ body {
     text-align: center;
     background-color: #ffffff;
     border: 2px solid #d81466; 
-    margin: 4rem auto;
+    margin: 2rem auto;
   }
-  
-  .box {
-    position: relative; 
-  }  
