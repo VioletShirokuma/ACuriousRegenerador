@@ -1,10 +1,19 @@
+
+
+//The characters that will be used
+
 const specialChar = "!#$%&'()*+,-./:;<>?@[]^_`{|}~";
 const numOption = "0123456789";
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+
+// function that pops up window to enter number
+
 function generate() {
   let userInput = prompt("Please input a number between 8 - 128 for length of password.");
+
+  // parseInt to sepearate characters
   let passwordSize = parseInt(userInput);
 
   //dialogues for characters and options
@@ -16,12 +25,15 @@ function generate() {
   let passwordResult = "";
   let charConfirm = "";
 
-  
+  // isNan = no number inputted
   if (passwordSize < 8 || passwordSize > 128 || isNaN(passwordSize)) {
     alert("You must enter a number between 8 to 128 characters in order to generate a password.");
     return;
-
   }
+
+
+
+
    if (specialOption) {
     charConfirm += specialChar;
   }
@@ -62,7 +74,10 @@ function randomize(length) {
     }
     return passwordResult;
   }
-  document.getElementById("password").innerHTML = randomize(passwordSize - 1);
+
+
+  
+document.getElementById("password").innerHTML = randomize(passwordSize - 1);
 }
 
 
